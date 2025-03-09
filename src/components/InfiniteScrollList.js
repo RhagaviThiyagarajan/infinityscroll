@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useCallback, useRef } from "react";
+import React, {  useCallback, useRef } from "react";
 import { FixedSizeList as List } from "react-window";
 import useInfiniteScroll from '../components/useInfiniteScroll';
 import { fetchPosts } from '../services/Api'
