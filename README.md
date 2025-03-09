@@ -1,3 +1,12 @@
+To Check the frontEnd Code
+
+
+https://infinitescrollproject111.netlify.app/
+
+
+
+Explanation 
+
 //Index.js is the entry file
 //App.js goes to    <InfiniteScrolling/>
 //from useInfiniteScroll function the fetchData is an argument and we  initialised state
