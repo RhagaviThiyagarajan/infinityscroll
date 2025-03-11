@@ -6,18 +6,30 @@ https://infinitescrollproject111.netlify.app/
 
 
 Explanation 
+index.js
 
-//Index.js is the entry file
-//App.js goes to    <InfiniteScrolling/>
-//from useInfiniteScroll function the fetchData is an argument and we  initialised state
-1st is an empty array
-2nd state the array index starts from 1
-third state is boolean
-// using the useEffect in infinitescroll
-if the length (means no data) then set the page loading to false
-// we use usEffect here and if the dependencies changes ,[page and fetchData] then it reloads the DOM
+Index.js is the entry file
+App.js goes to    <InfiniteScrolling/>
+
+
+from useInfiniteScroll function the fetchData is an argument and we  initialised state
+state 1 is an empty array.
+state-2, the array index starts from 1.
+state-3 is declared as is boolean.
+
+
+useEffect
+
+using the useEffect in infinitescroll
+if the length (means no data) 
+then set the page loading to false
+
+
+useEffect
+in useEffect, use usEffect here and if the dependencies changes ,[page and fetchData] then it reloads the DOM
 if the page loads loat the data +1 add more+1
 
+page-2
 InfiniteScrollList.js
 const observer = useRef(); useREf directly updates the DOM
 in this logic 
