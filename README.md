@@ -11,7 +11,7 @@ index.js
 Index.js is the entry file
 App.js goes to    <InfiniteScrolling/>
 
-
+InfiniteScrolling
 from useInfiniteScroll function the fetchData is an argument and we  initialised state
 state 1 is an empty array.
 state-2, the array index starts from 1.
